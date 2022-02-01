@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@font-face { font-family: Norse; src: url('./assets/Norse-Bold.otf'); } 
+@font-face { font-family: Norse; font-weight: bold; src: url('./assets/Norse-Bold.otf');}
 
 :root {
     font-family: 'Roboto', sans-serif;
@@ -21,4 +23,21 @@ main {
     background-repeat: no-repeat;
     height: 100vh;
     width: 38vw;
+}
+
+.logo-bar {
+    margin-top: 20vh;
+    background: rgba(0, 0, 0, .5);
+    height: 150px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Norse;
+    font-size: 3rem;
+}
+
+.logo-bar img {
+    max-height: 100%;
 }
