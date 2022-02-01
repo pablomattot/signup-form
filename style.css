@@ -41,3 +41,11 @@ main {
 .logo-bar img {
     max-height: 100%;
 }
+
+.call-to-action {
+    width: 100vw;
+}
+
+.call-to-action h1{
+    width: 50vw;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,21 @@
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
     <main>
         <div class="hero-image">
             <div class="logo-bar">
-                <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="The Odin Project logo">
+                <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+                    alt="The Odin Project logo">
                 <h1>ODIN</h1>
             </div>
         </div>
 
         <section class="call-to-action">
             <h1>
-                This is not a real online service! You know you need something 
+                This is not a real online service! You know you need something
                 like this in your life to help you realize your deepest dreams.
                 <br>
                 Sign up <em>now</em> to get started.
@@ -29,7 +32,20 @@
 
             <section class="form-card">
                 <form action="#" class="sign-up">
-                    
+                    <div class="form-input">
+                        <label for="first_name">First name</label>
+                        <input type="text" name="first_name" id="first_name">
+                        <label for="last_name">Last name</label>
+                        <input type="text" name="last_name" id="last_name">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
+                        <label for="phone_number">Phone number</label>
+                        <input type="text" name="phone_number" id="phone_number">
+                        <label for="password">Password</label>
+                        <input type="text" name="password" id="password">
+                        <label for="confirm_pw">Confirm password</label>
+                        <input type="text" name="confirm_pw" id="confirm_pw">
+                    </div>
                 </form>
             </section>
 
@@ -37,4 +53,5 @@
     </main>
 
 </body>
+
 </html>
