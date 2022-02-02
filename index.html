@@ -11,46 +11,58 @@
 
 <body>
 
-    <main>
+    <div class="wrapper">
         <div class="hero-image">
             <div class="logo-bar">
                 <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
-                    alt="The Odin Project logo">
+                    alt="The Odin Project logo" srcset="">
                 <h1>ODIN</h1>
             </div>
         </div>
 
-        <section class="call-to-action">
-            <h1>
-                This is not a real online service! You know you need something
-                like this in your life to help you realize your deepest dreams.
-                <br>
-                Sign up <em>now</em> to get started.
-            </h1>
-            <br>
-            <h1>You <em>know</em> you want to.</h1>
-
-            <section class="form-card">
-                <form action="#" class="sign-up">
-                    <div class="form-input">
-                        <label for="first_name">First name</label>
-                        <input type="text" name="first_name" id="first_name">
-                        <label for="last_name">Last name</label>
-                        <input type="text" name="last_name" id="last_name">
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email">
-                        <label for="phone_number">Phone number</label>
-                        <input type="text" name="phone_number" id="phone_number">
-                        <label for="password">Password</label>
-                        <input type="text" name="password" id="password">
-                        <label for="confirm_pw">Confirm password</label>
-                        <input type="text" name="confirm_pw" id="confirm_pw">
-                    </div>
-                </form>
+        <main>
+            <section class="description">
+                <p>
+                    This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest
+                    dreams. <br> Sign up <em>now</em> to get started.
+                </p>
+                <p>
+                    You <em>know</em> you want to.
+                </p>
             </section>
 
-        </section>
-    </main>
+            <form action="#">
+                <div class="form-container">
+                    <p>Let's do this!</p>
+
+                    <fieldset>
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" id="first_name">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone name=" phone">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                        <label for="conmfirm_pw">Confirm Password</label>
+                        <input type="password" id="confirm_pw" name="confirm_pw">
+                    </fieldset>
+                </div>
+
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </form>
+        </main>
+    </div>
 
 </body>
 
