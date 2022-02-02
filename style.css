@@ -124,3 +124,23 @@ form input {
     padding: 7px;
     font-size: 14px;
 }
+
+.button-area {
+    padding-left: 2rem;
+}
+
+.button-area a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+button {
+    background-color: #596D48;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
